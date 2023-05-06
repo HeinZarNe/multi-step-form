@@ -110,6 +110,7 @@ const StepOne = () => {
       <div className="fixed bottom-0 left-0 flex w-full items-center  justify-between bg-white p-3 md:relative">
         <span></span>
         <button
+          type="button"
           className="w-fit cursor-pointer select-none rounded-md bg-[#483EFF] p-3 font-bold text-white hover:bg-indigo-500"
           onClick={formik.handleSubmit}
         >

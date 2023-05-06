@@ -27,7 +27,6 @@ const planSlice = createSlice({
       });
 
       state.total = parseInt(state.plan.price) + parseInt(i);
-      console.log(state.total);
     },
   },
 });

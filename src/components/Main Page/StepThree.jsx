@@ -60,7 +60,7 @@ const StepThree = () => {
         return (
           <div
             key={index}
-            className={`w-full cursor-pointer text-primary`}
+            className={`w-full cursor-pointer text-primary `}
             onClick={(_) => handleClick(name, price, index)}
           >
             <div
